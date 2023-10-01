@@ -84,6 +84,6 @@ c) hitung sisi c >
     elif ulangi.lower() == "y":
         continue
 
-    #if it was neither a or b it will break automatically
+    #if it was neither y or n it will break automatically
     else:
         break
