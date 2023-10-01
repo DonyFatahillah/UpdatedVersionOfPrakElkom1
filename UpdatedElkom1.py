@@ -67,7 +67,7 @@ c) hitung sisi c >
         hitungC = math.sqrt(a**2 + b**2)
 
         #this is the result
-        print(f"Jika sisi a adalah {a}, dan sisi b adalah {b}, maka sisi a nya adalah {hitungC}")
+        print(f"Jika sisi a adalah {a}, dan sisi b adalah {b}, maka sisi c nya adalah {hitungC}")
         
     #this is the condition if the option was neither of them
     else:
