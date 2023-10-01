@@ -1,5 +1,6 @@
 import math
 #importing function from math library
+import time
 
 #while true for repeating the process if necessary
 while True:
@@ -59,8 +60,8 @@ c) hitung sisi c >
     elif opsi == "c":
 
         #input for the a & b numbers
-        a = float(input("Masukan sisi B : "))
-        b = float(input("Masukan sisi C : "))
+        a = float(input("Masukan sisi A : "))
+        b = float(input("Masukan sisi B : "))
         
         #this is the variable to count the C side
         hitungC = math.sqrt(a**2 + b**2)
@@ -78,6 +79,7 @@ c) hitung sisi c >
 
     #if it was the letter "n" it will stop
     if ulangi.lower() == "n":
+        print("\nThank you for using my program <3\n")
         break
     
     #if it was the letter "y" it will repeat the process
